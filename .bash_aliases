@@ -1,0 +1,17 @@
+#putting my aliases here
+
+alias cb="mv -ft  ~/.local/share/Trash/files --backup=t"
+alias trouve="find ./ -name .svn -prune -o -type f -print | xargs grep -Hi"
+alias updg="sudo apt-get update; sudo apt-get upgrade"
+alias pc_clean="sudo apt-get clean; sudo apt-get autoremove"
+alias sc="scribes"
+alias never="/usr/share/nevernote/nevernote.sh"
+alias proj="cd /home/jlengrand/Documents/Projects/"
+alias con_pc="ssh advansee_livizy@ADVLT009"
+alias con_mip="ssh root@advmipsee"
+alias st="svn status -u --no-ignore"
+alias svnrm="find -name .svn -exec rm -rf {} \;"
+alias rmcb="rm -rf ~/.local/share/Trash/files "
+alias eclipse="~/eclipse/eclipse" 
+alias unlog="gnome-session-save --force-logout"
+alias pycheck="PYTHONPATH=/home/jlengrand/bin/pypath pylint --load-plugins astng_cv"
