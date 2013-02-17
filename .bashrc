@@ -101,8 +101,9 @@ fi
 export PS1="\[\033[0;31m\][\u@\h:\w]$\[\033[0m\] "
 #adding my own scripts
 PATH=$PATH:/home/jlengrand/bin
-# add folder for dipimage
-PYTHONPATH=$PYTHONPATH:/home/jlengrand/bin/pypath:/home/jlengrand/Documents/data/Colibri
-export LD_LIBRARY_PATH=/home/jlengrand/dipimage/dip/Linux/lib
+
+# virtualenv
+export WORKON_HOME=$HOME/.virtualenvs
+source /usr/bin/virtualenvwrapper.sh
 
 
